@@ -1,0 +1,20 @@
+.previews {
+    display: flex;
+    padding: 0 1rem;
+}
+
+.preview {
+    margin: 2rem 1rem;
+    border: none;
+    box-shadow: $box-shadow;
+    background: #fff;
+}
+
+.preview--narrow {
+    flex: 0 0 auto;
+    width: 375px;
+}
+
+.preview--wide {
+    flex: 1 1 auto;
+}

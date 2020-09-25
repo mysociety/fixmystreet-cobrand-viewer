@@ -1,0 +1,16 @@
+html, body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.controls {
+    flex: 0 0 auto;
+}
+
+.previews {
+    flex: 1 1 auto;
+}

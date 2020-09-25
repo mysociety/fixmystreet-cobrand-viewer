@@ -1,0 +1,29 @@
+body.darkmode {
+    background-color: $gray-800;
+    color: #fff;
+
+    .form-control {
+        background-color: $gray-700;
+        color: #fff;
+        border-color: $gray-600;
+    }
+
+    .url-input {
+        label {
+            color: $gray-400;
+        }
+    }
+
+    .btn {
+        color: #fff;
+    }
+
+    #darkmode {
+        transform: rotate(180deg);
+    }
+}
+
+#darkmode {
+    transition: transform 200ms ease;
+    transform: rotate(0);
+}
